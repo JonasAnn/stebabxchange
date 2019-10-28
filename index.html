@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link href="https://fonts.googleapis.com/css?family=Prociono|Staatliches&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>StebabeXchange</title>
 	<style type="text/css">
 		* {
@@ -14,6 +15,7 @@
 			background-color: #d3d3d3;
 
 		}
+	/*	header css*/
 		.nav-bar {
 		background-color: #fff;
 			width: 100%;
@@ -44,6 +46,7 @@
 		font-family: 'Prociono', serif;
 		padding-right: 5rem;
 	}
+	/*main css*/
 	.maze {
 		display: flex;
 		justify-content: space-around;
@@ -52,21 +55,47 @@
 		border-radius: 4px;
 		background-color: #c4abab;
 		margin: auto;
-		margin-top: 2rem;
+		margin-top: 1.9rem;
 		border: 1.2px solid #830E2B;
 		padding:8px 0 4px 0;
 	}
-	.maze img{
+	.maze img {
 			border-radius: 4px;
 		border: 1px solid #000;
 			height: auto;
-		width: 420px;
+		width: 430px;
 	}
+/*	design for middle box*/
+	.image2 {
+		background-color: #fff;
+		border-radius: 4px;
+		border: 1px solid #000;
+			height: 430px;
+		width: 420px;
+		text-align: center;
+
+	}
+	.maze  a  img{
+		border: none;
+		height: auto;
+		width: 62%;
+		margin: auto;
+	}
+	.image2 i{
+		display: inline-block;
+		font-size: 3rem;
+		padding-bottom: 2px;
+	}
+	.image2 h3 {
+		padding-top: 6px;
+		font-size: 1.5rem;
+	}
+/*	footer css*/
 	footer {
 		width: 100%;
 		background-color: #fff;
 		height: auto;
-		margin-top: 2rem;
+		margin-top: 1.2rem;
 		
 	}
 
@@ -122,14 +151,29 @@
 	</div>
 </header>
 <main class="maze">
-	<div class="img1 img">
-		<img src="image.jpg" alt="/">
+	<div class="img1 imgs">
+		<img src="image.png" alt="/">
 	</div>
-	<div class="image2 img">
-		<img src="image.jpg" alt="/">
+	<div class="image2 imgs">
+		<h3> Get In Touch With Me</h3>
+		<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+		<div>
+			<a href="https://api.whatsapp.com/send?phone=2348136184782&text=&source=&data=">
+		<img src="Btn2.png" alt="/">
+	</a>
+	<a href="https://www.facebook.com/StebabXchange">
+			<img src="Btn4.png" alt="/">
+		</a>
+		<a href="https://www.instagram.com/StebabXchange">
+		<img src="Btn3.png" alt="/">
+	</a>
+		<a href="https://www.facebook.com/StebabXchange">
+			<img src="btn1.png" alt="/">
+		</a>
 	</div>
-	<div class="image3 img">
-		<img src="image2.jpg" alt="/">
+	</div>
+	<div class="image3 imgs">
+		<img src="image2.png" alt="/">
 	</div>
 </main>
 <footer>
