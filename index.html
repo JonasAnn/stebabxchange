@@ -20,6 +20,7 @@
 		background: url("DESKTOP.jpg");
 			width: 100%;
 			height: 6rem;
+			object-fit: cover;
 			border-bottom: 1px solid #830E2B;
 			 box-shadow: 1.2px 0 1.2px #888888;
 			/* display: flex;
@@ -126,7 +127,7 @@
 		padding-bottom: 6px;
 		padding-top: 10px;
 	}
-	@media only screen and (max-width: 800px) {
+	@media only screen and (max-width: 900px) {
 		.nav-bar {
 			background-color: #eee6e6;
 		}
@@ -137,7 +138,7 @@
 			margin-right: 20px;
 		}
 		.maze{
-			flex-direction: column;
+			flex-direction: column-reverse;
 			width: 100%;
 			align-items: center;
 		}
@@ -158,9 +159,9 @@
 	}
 	.nav-bar {
 		/*background: url("MOBILE.jpg");*/
-		object-fit: cover;
+		/*object-fit: cover;
 		width: 100%;
-			height: 6rem;
+			height: 6rem;*/
 
 }
 	</style>
@@ -176,10 +177,10 @@
 </header>
 <main class="maze">
 	<div class="img1 imgs">
-		<img src="image.jpg" alt="/">
+		<img src="image2.jpeg" alt="/">
 	</div>
 	<div class="image2 imgs">
-		<h3> Get In Touch With Me</h3>
+		<h3> Get In Touch With Us</h3>
 		<i class="fa fa-angle-double-down" aria-hidden="true"></i>
 		<div>
 			<a href="https://www.facebook.com/StebabXchange">
@@ -198,7 +199,7 @@
 	</div>
 	</div>
 	<div class="image3 imgs">
-		<img src="image2.jpg" alt="/">
+		<img src="image.jpg" alt="/">
 	</div>
 </main>
 <footer>
