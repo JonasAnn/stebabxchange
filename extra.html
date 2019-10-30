@@ -41,7 +41,7 @@
 	}
 		.boxes {
 			height: auto;
-		width: 400px;
+		max-width: 400px;
 		}
 	
 		.box1 img {
@@ -108,24 +108,30 @@ footer {
 		.maze{
 				flex-direction: column-reverse;
 				align-items: center;
+				width: 100%;
 						}
 		.box1 {
 			display: none;
 		}
 		.boxes {
-			padding-bottom: 10px;
+			margin-bottom: 10px;
+			width: 300px;
 		}
+	}
 
 	}
-	@media only screen and (min-width: 768px) {
-	.box2 h3 {
-		padding-top: 2px;
-		font-size: 1rem;
+	@media only screen and (max-width: 992px) {
+	/*.box2 h3 {
+		padding-top: 1px;
+		font-size: .8rem;
 	}
 	.box2 i{
-		font-size: 2rem;
+		font-size: 1rem;
 		padding-bottom: 1px;
 	}
+	.boxes{
+		margin-right: 3px;
+	}*/
 }
 	</style>
 </head>
