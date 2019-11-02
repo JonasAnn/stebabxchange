@@ -20,12 +20,13 @@
 		header {
 			width: 100%;
 			height: 6rem;
-			margin-left: 1px;
-			background-image: linear-gradient(45deg, #B11135, #0269B4, #fff);
-				border-bottom: 1px solid #830E2B;
-			 box-shadow: 1.2px 0 1.2px #888888;
 		}
-		.logo-box {
+		header img {
+		max-width:100%;
+		max-height:100%;
+		width: 100%;
+		object-fit: cover;		}
+	/*	.logo-box {
 				height: 6rem;
 				background-color: #fcfbfbcc;
 				width: 94.42px;
@@ -35,7 +36,7 @@
 			max-width:100%;
 		max-height:100%;
 		object-fit: contain;
-		}
+		}*/
 		.maze {
 		display: flex;
 		justify-content: space-around;
@@ -95,7 +96,7 @@ footer {
 		width: 100%;
 		background-color: #ded7d7;
 		height: auto;
-		margin-top: 2.4rem;
+		margin-bottom: 0;
 		
 	}
 	footer p {
@@ -129,7 +130,7 @@ footer {
 	
 
 	}
-	@media only screen and (min-width:1024px) {
+	@media only screen and (width:1024px) {
 	.boxes {
 		width: 300px;
 		height:300px;
@@ -153,7 +154,7 @@ footer {
 </head>
 <body>
 <header>
-	<div class="logo-box"><img src="XCHANGE-01.png"></div>
+<img src="hed.jpg"> 
 </header>
 <main class="maze">
 	<div class="box1 boxes">
@@ -183,6 +184,10 @@ footer {
 </main>
 <footer>
 		<p class="first-p">Copyright of @StebabXchange</p>
+		<p class="second-p">@2018</p>
+	</footer>
+</body>
+</html>		<p class="first-p">Copyright of @StebabXchange</p>
 		<p class="second-p">@2018</p>
 	</footer>
 </body>
